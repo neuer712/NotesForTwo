@@ -1,6 +1,18 @@
-#character
-{
-    display: flex;
-    flex-wrap: nowrap;
-   
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    text-align: center;
+}
+.container .box{
+    float: left;
+    width: 50%;
+    border: white;
+    border:100px;
+    padding: 80px;
+}
+.container .box img{
+    width: 400px;
+    height: 400px;
 }
